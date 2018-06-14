@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{27F7B816-68B2-329F-2EE9-7AB842EB9197}</ProjectGuid>
+    <ProjectGuid>{1C259B87-B64D-A6C6-826A-A1DEF39A0FE0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -101,18 +101,11 @@
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRWaitCursor.cs" />
      <Compile Include="Assets\Scripts\BallCollision.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
-     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
-     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\Grab.cs" />
+     <Compile Include="Assets\Scripts\Gun.cs" />
      <Compile Include="Assets\Scripts\Managers\EnemyManager.cs" />
-     <Compile Include="Assets\Scripts\Managers\GameOverManager.cs" />
-     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
-     <Compile Include="Assets\Scripts\OculusDemo.cs" />
-     <Compile Include="Assets\Scripts\OculusHapticsController.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
+     <Compile Include="Assets\Scripts\SpiderMovement.cs" />
      <Compile Include="Assets\Scripts\TouchController.cs" />
      <Compile Include="Assets\Scripts\VibrationForce.cs" />
      <None Include="Assets\Oculus\VR\Resources\OVRMRUnlitTransparent.shader" />
